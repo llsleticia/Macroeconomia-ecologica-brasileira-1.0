@@ -183,9 +183,7 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        gov_SUB<-SUB_initial/(1+g_baseline))
-        CO2<-EMIS_tot*75.9 #GtCO2;(Bi)
+        gov_IMP<- IMP_inicial/(1+g_baseline))
       }
       
       #-----------------------
@@ -197,20 +195,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) 
+        gov_SUB<-SUB_initial/(1+g_baseline))
+         
       }
-      if (j==3 & i>=6){
-        E_S1<-1 #(Bi) 
-        E_S2<-1 #(Bi)
-        E_S3<-1 #(Bi)
-        E_S4<-1 #(Bi)
-        E_S5<-1 #(Bi)
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) 
-      }
-      
       #-----------------------
       # Provável Investimento público verde
       #-----------------------
@@ -221,9 +208,8 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+        
       }
       if (j==4 & i>=6){
         E_S1<-1 #(Bi) 
@@ -231,10 +217,11 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-4*IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) #(Ci)
-      }
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+       
+        
       #--------------------------------
       # Mix de políticas fiscais verdes
       #--------------------------------
@@ -244,9 +231,10 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) #(Ci)
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+       
       }
       
       if (j==200 & i>=6) {
@@ -255,9 +243,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-0.6
-        gov_IG<-4*IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) #(Ci)
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
         
       #--------------------------------------------------------------------------------------------
       # Combinação de políticas fiscais verdes
@@ -268,9 +256,10 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) #(Ci)
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+
       }
       if (j==5 & i>=6) {
         E_S1<-1 #(Bi) 
@@ -278,11 +267,10 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-0.6
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) #(Ci)
-        s_G<-0.25 #(Ci)
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+
       }
       
       #-------------------------------------------------------------------------------------------
@@ -294,10 +282,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-       <-1.56995776#coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        s_G<-B_GCB_initial/(B_G_initial/(1+g_baseline)) #(Ci)
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       if (j==6 & i>=6) {
         E_S1<-1 #(Bi) 
@@ -305,9 +292,10 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <-1.56995776 #coeficiente estimado econometricamente
-        gov_SUB<-0.6
-        gov_IG<-4*IG_GOV_initial/(Y_initial/(1+g_baseline))
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+      }
       
       #-----------------------------
       #Sensibilidade mínima
@@ -318,9 +306,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <-1.05865076# coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
         
       }
       if (j==16 & i>=6){
@@ -329,10 +317,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        r_3_dCR_dCAR_max<-1.05865076# coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline)
-   
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       #------------
       if (j==17 & i<6){
@@ -341,9 +328,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline)
-
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       if (j==17 & i>=6){
         E_S1<-1 #(Bi) 
@@ -351,10 +338,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-       <- 2.08126476 #coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline)
-    
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       #------------
       if (j==18 & i<6){
@@ -363,10 +349,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <-1.05865076 #coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-      
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       if (j==18 & i>=6){
         E_S1<-1 #(Bi) 
@@ -374,10 +359,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-       <-1.05865076# coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-     
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       #------------
       if (j==19 & i<6){
@@ -386,19 +370,18 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <- 2.08126476 #parâmetro auxiliar
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline)
- 
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       if (j==19 & i>=6){
         E_S1<-1 #(Bi) 
         E_S2<-1 #(Bi)
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-   
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       #------------
       if (j==20 & i<6){
         E_S1<-1 #(Bi) 
@@ -406,17 +389,17 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <-1.05865076 #coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
         E_S1<-1 #(Bi) 
         E_S2<-1 #(Bi)
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
    
       #------------
       if (j==21 & i<6){
@@ -425,10 +408,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <- 2.08126476 #Parâmetro auxiliar
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-    
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       if (j==21 & i>=6){
         E_S1<-1 #(Bi) 
@@ -436,10 +418,10 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <- 2.08126476 #Parâmetro auxiliar
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-        
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
+      }
       #------------
       if (j==22 & i<6){
         E_S1<-1 #(Bi) 
@@ -447,10 +429,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-       <-1.05865076#coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-       
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       if (j==22 & i>=6){
         E_S1<-1 #(Bi) 
@@ -458,9 +439,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-       <-1.05865076#Coeficiente estimado econometricamente
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       
       #------------
       if (j==23 & i<6){
@@ -469,10 +450,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <- 2.08126476 #Parâmetro auxiliar
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
-       
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
       }
       if (j==23 & i>=6){
         E_S1<-1 #(Bi) 
@@ -480,9 +460,9 @@ for (j in 1:loops){
         E_S3<-1 #(Bi)
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
-        <- 2.08126476 #Parâmetro auxiliar
-        gov_SUB<-SUB_initial/(IG_PRI_initial/(1+g_baseline))
-        gov_IG<-IG_GOV_initial/(Y_initial/(1+g_baseline))
+        gov_IMP<- IMP_inicial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
        
 ---------------------------------------------------------------------------------------------------------------------------------------
 #MATRIZES
