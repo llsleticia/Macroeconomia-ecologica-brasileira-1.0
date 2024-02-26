@@ -151,11 +151,11 @@ for (j in 1:loops){
         E_S4<- #R$ 16.9 (Bi)
         E_S5<- #R$ 926 (Milhões)
         EMIS_S1<- 426.908.866# GtCO2 
-      EMIS_S2<- 562.094.895# GtCO2
-      EMIS_S3<- 825.463.183# GtCO2  
-      EMIS_S4<- 76.136.079# GtCO2 
-      EMIS_S5<- 85.273.595# GtCO2 
-      EMIS_tot<-1.975.876.618#GtCO2
+        EMIS_S2<- 562.094.895# GtCO2
+        EMIS_S3<- 825.463.183# GtCO2  
+        EMIS_S4<- 76.136.079# GtCO2 
+        EMIS_S5<- 85.273.595# GtCO2 
+        EMIS_tot<-1.975.876.618#GtCO2
       
       #-------------
       # Cenário base
@@ -218,8 +218,8 @@ for (j in 1:loops){
         E_S4<-1 #(Bi)
         E_S5<-1 #(Bi)
         gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+        gov_SUB<-SUB_initial/(1+g_baseline))
+        gov_INV<-INV_initial/(1+g_baseline))
 
 
 #--------------------------------
@@ -232,8 +232,8 @@ if (j==200 & i<6) {
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 }
 
@@ -244,8 +244,8 @@ if (j==200 & i>=6) {
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 #--------------------------------------------------------------------------------------------
 # Combinação de políticas fiscais verdes
@@ -257,8 +257,8 @@ if (j==5 & i<6) {
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 }
 if (j==5 & i>=6) {
@@ -268,8 +268,8 @@ if (j==5 & i>=6) {
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 }
 
@@ -283,8 +283,8 @@ if (j==6 & i<6) {
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 if (j==6 & i>=6) {
   E_S1<-1 #(Bi) 
@@ -293,8 +293,8 @@ if (j==6 & i>=6) {
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 
 #-----------------------------
@@ -307,8 +307,8 @@ if (j==16 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 }
 if (j==16 & i>=6){
@@ -318,8 +318,8 @@ if (j==16 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 #------------
 if (j==17 & i<6){
@@ -329,8 +329,8 @@ if (j==17 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 if (j==17 & i>=6){
   E_S1<-1 #(Bi) 
@@ -339,8 +339,8 @@ if (j==17 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 #------------
 if (j==18 & i<6){
@@ -350,8 +350,8 @@ if (j==18 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 if (j==18 & i>=6){
   E_S1<-1 #(Bi) 
@@ -360,8 +360,8 @@ if (j==18 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 #------------
 if (j==19 & i<6){
@@ -371,8 +371,8 @@ if (j==19 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 if (j==19 & i>=6){
   E_S1<-1 #(Bi) 
   E_S2<-1 #(Bi)
@@ -380,8 +380,8 @@ if (j==19 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 #------------
 if (j==20 & i<6){
   E_S1<-1 #(Bi) 
@@ -390,16 +390,16 @@ if (j==20 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
-E_S1<-1 #(Bi) 
-E_S2<-1 #(Bi)
-E_S3<-1 #(Bi)
-E_S4<-1 #(Bi)
-E_S5<-1 #(Bi)
-gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
+  E_S1<-1 #(Bi) 
+  E_S2<-1 #(Bi)
+  E_S3<-1 #(Bi)
+  E_S4<-1 #(Bi)
+  E_S5<-1 #(Bi)
+  gov_IMP<- IMP_inicial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 #------------
 if (j==21 & i<6){
@@ -409,8 +409,8 @@ if (j==21 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 if (j==21 & i>=6){
   E_S1<-1 #(Bi) 
@@ -419,8 +419,8 @@ if (j==21 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 #------------
 if (j==22 & i<6){
@@ -430,8 +430,8 @@ if (j==22 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 if (j==22 & i>=6){
   E_S1<-1 #(Bi) 
@@ -440,8 +440,8 @@ if (j==22 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 #------------
 if (j==23 & i<6){
@@ -451,8 +451,8 @@ if (j==23 & i<6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 }
 if (j==23 & i>=6){
   E_S1<-1 #(Bi) 
@@ -461,8 +461,8 @@ if (j==23 & i>=6){
   E_S4<-1 #(Bi)
   E_S5<-1 #(Bi)
   gov_IMP<- IMP_inicial/(1+g_baseline))
-gov_SUB<-SUB_initial/(1+g_baseline))
-gov_INV<-INV_initial/(1+g_baseline))
+  gov_SUB<-SUB_initial/(1+g_baseline))
+  gov_INV<-INV_initial/(1+g_baseline))
 
 ---------------------------------------------------------------------------------------------------------------------------------------
   #MATRIZES
