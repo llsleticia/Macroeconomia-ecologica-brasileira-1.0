@@ -12,7 +12,7 @@ loops<-4
 #-------------------------------------------------------------------------------------------------------------
 
 #Matéria, desperdício e reciclagem
-ETco2 = ETCO2/E1 + E2 + E3  + E3 + E4
+ETco2 = ETCO2/E1 + E2 + E3  + E4 + E5
 
 #Energia
 ENP=FPt
